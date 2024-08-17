@@ -7,8 +7,8 @@ import X from './icons/x.svg';
 import Rarr from './icons/rarr.png';
 import Vert from './icons/vert.svg';
 
-import Hero from './images/Hero.png';
-import Hero_m1 from './images/Hero-1.jpg';
+import Hero from './images/Hero.webp';
+import Hero_m1 from './images/Hero-1.webp';
 
 export {
     Logo,
