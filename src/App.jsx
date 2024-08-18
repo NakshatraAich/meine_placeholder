@@ -67,7 +67,7 @@ export default function App() {
               <button
                 type="submit"
                 id="sub-button"
-                className={`w-10 h-10 bg-[#B5D411] text-white font-semibold rounded-full flex items-center justify-center ${loading ? 'cursor-not-allowed' : ''}`}
+                className={`shrink-0 w-10 h-10 bg-[#B5D411] p-1 text-white font-semibold rounded-full flex items-center justify-center ${loading ? 'cursor-not-allowed' : ''}`}
                 disabled={loading}
               >
                 {loading ? (
@@ -101,8 +101,7 @@ export default function App() {
       </div>
       <div className="bottom-0 left-0">
         <footer className="bottom-0 w-full bg-[#222222] text-[#B5D411] font-medium text-xs py-6 px-10 flex flex-col sm:text-center gap-1 justify-center">
-          <p className="mb-4">Copyright © 2023, MEINE Electric Automotives Pvt. Ltd. All Rights Reserved. Icons by 
-              <u><a target="_blank" href="https://icons8.com/">Icons8</a></u>
+          <p className="mb-4">Copyright © 2023, MEINE Electric Automotives Pvt. Ltd. All Rights Reserved. Icons by <u><a target="_blank" href="https://icons8.com/">Icons8</a></u>
           </p>
           <p className="text-[0.65rem] text-[#a1a1a1]">E- 21 MIG DDA Flats, Saket, Malviya Nagar, Delhi - 10017</p>
           <p className="text-[0.65rem] text-[#a1a1a1]">CIN: U34100DL2022PTC404082</p>
