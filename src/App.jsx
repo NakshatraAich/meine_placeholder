@@ -41,7 +41,7 @@ export default function App() {
           <img src={Logo} className="w-[125px] lg:w-[150px] h-auto py-6 sm:ml-0 ml-3"/>
         </nav>
         <section>
-          <img src={Hero} className="lg:flex hidden w-full"/>
+          <img src={Hero} style={{ width: '100%', height: 'auto'  }} className="lg:flex hidden w-full"/>
           <div className="image-container flex lg:hidden">
             <img src={Hero_m1}/>
           </div>    
