@@ -1,4 +1,5 @@
 import Logo from './logos/logo.svg';
+import mLogo from './logos/MiniLogo.png';
 
 import Fb from './icons/fb.svg';
 import Ig from './icons/ig.svg';
@@ -19,5 +20,6 @@ export {
     Hero,
     Rarr,
     Vert,
-    Hero_m1
+    Hero_m1,
+    mLogo
 };

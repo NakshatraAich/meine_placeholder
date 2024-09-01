@@ -1,4 +1,4 @@
-import { Logo, Fb, Ig, Link, Hero, Rarr, Hero_m1 } from "./assets"
+import { Logo, Fb, Ig, Link, Hero, Rarr, Hero_m1, mLogo } from "./assets"
 import {useState, useRef} from 'react'
 
 export default function App() {
@@ -37,7 +37,8 @@ export default function App() {
   return (
     <section className="flex flex-col h-[100vh] bg-[#F0F0F0] justify-between">
       <div className="flex flex-col bg-[#F0F0F0]">
-        <nav className="w-full flex flex-row sm:justify-start justify-center px-16 py-1">
+        <nav className="w-full flex flex-row sm:justify-start justify-center px-16 py-1 gap-4">
+          <img src={mLogo} className="w-[60px] md:flex hidden lg:w-[60px] h-auto py-6 sm:ml-0 ml-3"/>
           <img src={Logo} className="w-[125px] lg:w-[150px] h-auto py-6 sm:ml-0 ml-3"/>
         </nav>
         <section>
